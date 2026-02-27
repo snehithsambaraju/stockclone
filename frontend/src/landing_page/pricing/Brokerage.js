@@ -1,14 +1,15 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Brokerage() {
   return (
     <div className="container">
       <div className="row p-5 mt-5 text-center border-top">
         <div className="col-8 p-4">
-          <a href="" style={{ textDecoration: "none" }}>
+          <Link to="" style={{ textDecoration: "none" }}>
             <h3 className="fs-5">Brokerage calculator</h3>
-          </a>
+          </Link>
           <ul
             style={{ textAlign: "left", lineHeight: "2.5", fontSize: "12px" }}
             className="text-mut"
@@ -37,9 +38,9 @@ function Brokerage() {
           </ul>
         </div>
         <div className="col-4 p-4">
-          <a href="" style={{ textDecoration: "none" }}>
+          <Link to="" style={{ textDecoration: "none" }}>
             <h3 className="fs-5">List of charges</h3>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -47,3 +48,5 @@ function Brokerage() {
 }
 
 export default Brokerage;
+
+

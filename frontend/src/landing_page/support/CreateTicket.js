@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CreateTicket() {
   return (
@@ -9,62 +10,62 @@ function CreateTicket() {
           <h4 className="">
             <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Offline Account Opening
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Company, Partnership and HUF Account
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Opening
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             NRI Account Opening
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Charges at Zerodha
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Zerodha IDFC FIRST Bank 3-in-1 Account
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Getting Started
-          </a>
+          </Link>
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
          <i className="fa-solid fa-address-card"></i>Your Zerodha Account
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Your Profile
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Account modication
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Client Master Report(CMR) and Depository Participant(DP)
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
              Nomination
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Transfer and conversion of securities
-          </a>
+          </Link>
      
           <br />
         </div>
@@ -72,29 +73,29 @@ function CreateTicket() {
           <h4 className="">
           <i className="fa-solid fa-kite"></i>Kite
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           IPO
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Trading FAQs
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Margin Trading Facility(MTF) and Margins
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Charts and orders
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Alert and Nudges
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           General
-          </a>
+          </Link>
           <br />
          
         </div>
@@ -102,21 +103,21 @@ function CreateTicket() {
           <h4 className="">
             <i className="fa-solid fa-indian-rupee-sign"></i>Funds
          </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Add money
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Withdraw Money
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Add bank accounts
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             eMandates
-          </a>
+          </Link>
           <br />
       
         </div>
@@ -124,59 +125,59 @@ function CreateTicket() {
           <h4 className="">
          <i className="fa-solid fa-circle"></i>Console
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
          
          Portfolio
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
            Corporate actions
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Funds statement
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
          Reports
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Profile
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Segments
-          </a>
+          </Link>
         
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
          <i className="fa-solid fa-coins"></i>Coin
           </h4>
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
          Mutual Funds
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             National Pension Schema(NPS)
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
        Fixed Deposit
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
         Features on Coin
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           Payments and Orders
-          </a>
+          </Link>
           <br />
-          <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
+          <Link to="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
           General
-          </a>
+          </Link>
           <br />
         
         </div>
@@ -187,3 +188,5 @@ function CreateTicket() {
 }
 
 export default CreateTicket;
+
+
