@@ -1,0 +1,15 @@
+.universe-img {
+  width: 140px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
